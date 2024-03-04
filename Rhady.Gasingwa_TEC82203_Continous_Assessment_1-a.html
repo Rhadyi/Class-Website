@@ -10,15 +10,23 @@
         *{
             font-family:sans-serif;
         }
+        body{
+            width:100%;
+        }
         nav{
             background-color: grey;
             width:100%;
             padding: 30px 20px;
-            display:inline-flex;
-            gap:2em;
-            align-content: center;
+            display: flex;
+            background-image: linear-gradient(to right, lightblue, lightgreen, lightyellow); 
+            justify-content: space-between;
             margin-left: -20px;
             margin-right: -20px;
+        }
+        .Menu{
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
         }
         li{
             text-decoration:none;
@@ -52,10 +60,10 @@
 </head>
 <body>
     <nav>
-        <li><a href="index.html">Abouuout</a></li>
-        <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-a.html">Work</a></li>
-        <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-b.html">Gallery</a></li>
-        <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-c.html">Contact</a></li>
+        <li Class="Menu"><a href="index.html">About</a></li>
+        <li><a class="Menu" href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-a.html">Work</a></li>
+        <li><a Class="Menu" href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-b.html">Gallery</a></li>
+        <li><a Class="Menu" href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-c.html">Contact</a></li>
     </nav>
 
     <div class="accomplishments">
