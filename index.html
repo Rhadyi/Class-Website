@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhady-Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            background-color:darkslategrey;
+            margin: 7px 30px;
+        }
+        nav{
+            background-color: grey;
+            width:100%;
+            padding: 30px 20px;
+            display:inline-flex;
+            gap:2em;
+            align-content: center;
+            margin-left: -30px;
+            margin-right: -60px;
+        }
+        li{
+            text-decoration:none;
+            list-style:none;
+        }
+        li a{
+            list-style:none;
+            text-decoration:none;
+        }
+        .Bio-Container{
+            display:flex;
+            justify-content: space-between;
+        }
+        .Bio-Picture{
+            position:left;
+            height: 80%;
+            width:60%;
+            box-shadow: 0 4px 8px 0;
+            transition: transform 0.5s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1); 
+          }
+        img{
+            border-radius: 10px 10px 10px 10px;
+        }
+        .Bio-Words{
+            float:right;
+            height:40%;
+            align-self:center;
+            background-color: rgba(255, 238, 204, 0.7);
+            width: 35%; 
+            padding: 20px;
+            border-radius: 10px; 
+            filter: blur(0.5px);
+            animation: slideIn 1.5s ease-in-out 0.5s;
+        }
+        @keyframes slideIn {
+            from {
+            transform: translateX(-100%); 
+            opacity: 0.5; 
+            }
+            to {
+            transform: translateX(0);
+            opacity: 1;
+            }
+        }
+        h1{
+            text-align: center;
+        }
+        footer{
+            width:100%;
+            background-color:#092a3d;
+            display:flex;
+            bottom:0px;
+            padding: 30px;
+            justify-content: space-between;
+            color:white;
+            right:0px;
+            margin-left: -30px;
+            align-items: self-start;
+        }
+        iframe{
+            float:right;
+        }
+        a{
+            text-decoration:none;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+            <li><a href="index.html">About</a></li>
+            <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-a.html">Work</a></li>
+            <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-b.html">Gallery</a></li>
+            <li><a href="Rhady.Gasingwa_TEC82203_Continous_Assessment_1-c.html">Contact</a></li>
+    </nav>
+    <h1>About The Author</h1>
+    <div class="Bio-Container">
+        <div class="Bio-Picture">
+            <img src="Web_Design_Assessment.JPG" style="max-width: 100%; max-height:100%;">
+        </div>
+        <div class="Bio-Words">
+            <h1>Rhady GASINGWA</h1>
+            <P>There is a person under the sky who is going to be looking for a new person kinda looking liket hey are in the drums and they are going to create something that has never been seen before</P>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <footer>
+        <div class="Contact">
+                <li><a href="https://facebook.com/eric" class="list-group-item"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li><br>
+                <li><a href="https://twitter.com/BecketAdams" class="list-group-item"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li><br>
+                <li><a href="https://youtu.be/Rs5z09AXYzE" class="list-group-item"><i class="fa fa-youtube fa-fw"></i> YouTube</a></li>
+        </div>
+        <div class="Social Media">
+            <a href="https://facebook.com/eric" class="list-group-item"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+            <a href="https://twitter.com/BecketAdams" class="list-group-item"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+            <a href="https://youtu.be/Rs5z09AXYzE" class="list-group-item"><i class="fa fa-youtube fa-fw"></i> YouTube</a>
+            <h1>Talk To US</h1>
+            <p>          Tell us your story</p>
+        </div>
+        <div>
+            
+        </div>
+    </footer>
+</body>
+
+</body>
+</html>
