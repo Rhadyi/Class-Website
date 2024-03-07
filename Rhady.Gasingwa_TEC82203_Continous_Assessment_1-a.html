@@ -79,6 +79,23 @@
             width: 100%; 
             height: 100%; 
         }
+        .box-description {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right:-200px;
+            opacity: 0;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 0px; 
+            overflow: hidden;
+        }
+        .Box:hover .box-description {
+            opacity: 1;
+            height: auto; 
+            width: 100%;
+            padding:10px;
+        }
 
     </style>
 </head>
@@ -93,12 +110,18 @@
     <div class="accomplishments">
         <div class="Certs">
             <img src="Design 1.png">
+            <div class="box-description">This is a certificate I received for having worked as a volunteer for World Friend Korea, one of my responsibilities included taking pictures and providing translation services to the team.</div>
+        </div>
         </div>
         <div class="Certs">
             <img src="Photo-Contest_Certificate.png" >
+            <div class="box-description">This is a certificate I received for having participated in a photography contest at school</div>
+        </div>
         </div>
         <div class="Certs">
             <img src="Control-V (33).png">
+            <div class="box-description">This is a certificate I received for having passed the Prince2 foundation exam. I plan to use this to enhance my skills & knowledge as a project manager in the photography industry.</div>
+        </div>
         </div>
     </div>
     <footer>
